@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans+Condensed:wght@200;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Karla:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    background-color: rgba(0,0,0,.3);
+}
+
+.nav-outer-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 0;
+}
+
+.harman-nav-links-div-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.harman-nav-links-div-ul li{
+    padding: 5px 10px;
+}
+.harman-nav-links-div-ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.harman-nav-img-div img{
+    width:80px;
+    height:80px;
+}
+.harman-nav-links-div {
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.sell-hover{
+    position: relative;
+}
+.sell-hover-div ul{
+    position: absolute;
+    height:100%;
+    background-color: navy;
+    color:#fff;
+    /* left: 0;
+    right: 0; */
+    /* overflow: hidden; */
+    transition: all ease-in-out .3s;
+    visibility:hidden;
+}
+
+.sell-hover-div ul{
+    list-style: none;
+    padding: 0 ;
+}
+
+.sell-hover-div ul li a{
+    color: #fff;
+}
+
+.sell-hover:hover .sell-hover-div ul{
+    /* height:50%; */
+    visibility:visible;
+}
+
+/* .sell-hover:hover .sell-hover-div-ul{
+    height:100%;
+} */
